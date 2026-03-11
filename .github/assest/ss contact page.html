@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<form action="https://formsubmit.co/your@email.com" method="POST" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sayan Samanta</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4 font-sans">
+
+    <div class="w-full max-w-4xl bg-white rounded-2xl shadow-xl overflow-hidden grid md:grid-cols-5">
+
+        <!-- Left Side / Your Profile -->
+        <div class="md:col-span-2 bg-gradient-to-b from-slate-800 to-slate-900 text-white p-8 flex flex-col gap-6">
+            <div>
+                <h2 class="text-3xl font-bold mb-1">Sayan Samanta</h2>
+                <p class="text-slate-300">Feel free to contact me anytime</p>
+            </div>
+
+            <div class="flex flex-col gap-6 mt-6">
+                
+                <div class="flex items-start gap-4 group">
+                    <div class="mt-1 text-blue-400">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <a target="_blank" href="https://www.google.com/maps/search/28/4/b Sarada Chatterjee Lane, Kadamtala Howrah 711101" 
+                    class="text-sm hover:text-blue-400 transition-colors">
+                        28/4/b Sarada Chatterjee Lane<br>
+                        Kadamtala, Howrah - 711101
+                    </a>
+                </div>
+
+                <div class="flex items-center gap-4 group">
+                    <div class="text-green-400">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <a href="tel:+919330153030" class="hover:text-green-400 transition-colors">
+                        +91 93301 53030
+                    </a>
+                </div>
+
+                <div class="flex items-center gap-4 group">
+                    <div class="text-red-400">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <a href="mailto:sayansamanta3000@gmail.com" class="text-sm hover:text-red-400 transition-colors">
+                        sayansamanta3000@gmail.com
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="mt-auto flex gap-3 text-xl">
+                <a href="#" class="hover:text-blue-400 transition-colors"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" class="hover:text-blue-400 transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="hover:text-blue-400 transition-colors"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+        </div>
+
+
+        <!-- Right Side / Contact Form -->
+        <div class="md:col-span-3 p-8">
+            <h3 class="text-2xl font-semibold mb-6 text-gray-800">Send me a message</h3>
+
+            <form action="https://formsubmit.co/sayansamanta3000@gmail.com" method="POST" class="flex flex-col gap-5">
+                
+                <div class="grid gap-5 sm:grid-cols-2">
+                    <div>
+                        <label class="text-sm text-gray-600">Your Name</label>
+                        <input type="text" name="name" required class="w-full mt-1 px-0 py-2 border-b-2 border-gray-300 focus:border-blue-600 outline-none transition-all">
+                    </div>
+                    <div>
+                        <label class="text-sm text-gray-600">Your Email</label>
+                        <input type="email" name="email" required class="w-full mt-1 px-0 py-2 border-b-2 border-gray-300 focus:border-blue-600 outline-none transition-all">
+                    </div>
+                </div>
+
+                <div>
+                    <label class="text-sm text-gray-600">Phone Number</label>
+                    <input type="tel" name="phone" class="w-full mt-1 px-0 py-2 border-b-2 border-gray-300 focus:border-blue-600 outline-none transition-all">
+                </div>
+
+                <div>
+                    <label class="text-sm text-gray-600">Your Message</label>
+                    <textarea name="message" rows="4" required class="w-full mt-1 px-0 py-2 border-b-2 border-gray-300 focus:border-blue-600 outline-none resize-none transition-all"></textarea>
+                </div>
+
+                <button type="submit" class="mt-3 bg-slate-800 hover:bg-slate-900 text-white self-end px-8 py-3 rounded-lg transition-all hover:shadow-lg active:scale-95">
+                    Send Message
+                </button>
+
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>
